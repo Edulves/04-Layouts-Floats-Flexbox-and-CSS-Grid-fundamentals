@@ -136,9 +136,9 @@ li:last-child {
   list-style: none;
 }
 
-/* body {
-  background-color: orange;
-} */
+body {
+  /* background-color: orangered; */
+}
 
 /* .first-li {
   font-weight: bold;
@@ -156,7 +156,7 @@ li:nth-child(even) {
   /* color: red; */
 }
 
-/*  Misconception: this won't work! */
+/* Misconception: this won't work! */
 article p:first-child {
   color: red;
 }
@@ -233,8 +233,8 @@ h2 {
 
 h2::before {
   content: "TOP";
-  background-color: #ffffff;
-  color: #000;
+  background-color: #ffe70e;
+  color: #444;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -261,7 +261,28 @@ footer p {
   color: green !important;
 } */
 
-/* nav a:link nav p {
+/* nav a:link,
+nav p {
   font-size: 18px;
 } */
-/**/
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 50px; */
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
